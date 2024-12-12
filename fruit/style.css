@@ -143,24 +143,36 @@ nav a:hover {
 
 /* About Section */
 #about {
-    background-color: #ffffff;
-    color: #333;
-    padding: 40px 20px;
+    background: url('image/ABOUT.jpg') center/cover no-repeat; /* 배경 이미지 경로 */
+    background-size: cover; /* 배경 이미지를 꽉 채우도록 설정 */
+    background-position: center; /* 배경 이미지 중앙 정렬 */
+    color: #f1fafcee;
+    padding: 60px 20px; /* 패딩을 좀 더 넓혀서 글씨가 화면 중앙에 잘 오도록 */
     margin: 40px 0;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    font-weight: 900;
 }
+
+/* About Section 제목 스타일 */
 #about h2 {
-    font-size: 2.5rem;
-    color: #ff7f50;
+    font-size: 3rem; /* 글씨 크기를 더 크게 */
+    color: #ff7f50; /* 주황색 */
     margin-bottom: 20px;
 }
+
+/* About Section 본문 스타일 */
 #about p {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* 본문 글씨 크기를 크게 */
     line-height: 1.6;
     margin-bottom: 20px;
+    max-width: 900px; /* 최대 너비 설정으로 텍스트 길이를 적당히 제한 */
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 /* Footer */
 footer {

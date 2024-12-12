@@ -257,6 +257,7 @@ nav a:hover {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 /* 상품 리스트 스타일 */
@@ -277,6 +278,7 @@ nav a:hover {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
     text-align: center;
     overflow: hidden;
+    font-weight: 600;
 }
 
 .product-item:hover {
@@ -318,6 +320,7 @@ nav a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     width: 100%;
+    font-weight: 600;
 }
 
 .product-item button:hover {
@@ -361,6 +364,7 @@ nav a:hover {
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+    font-weight: 600;
 }
 
 #cart ul li button:hover {

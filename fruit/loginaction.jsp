@@ -25,7 +25,7 @@
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        String db_address = "jdbc:mysql://10.10.10.21:3306/user_management"; // 데이터베이스 URL 수정 필요
+        String db_address = "jdbc:mysql://10.10.130.30:3306/user_management"; // 데이터베이스 URL 수정 필요
         String db_username = "root"; // 데이터베이스 사용자명 수정 필요
         String db_pwd = "root"; // 데이터베이스 비밀번호 수정 필요
 

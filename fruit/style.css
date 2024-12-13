@@ -143,7 +143,7 @@ nav a:hover {
 
 /* About Section */
 #about {
-    background: url('image/ABOUT.jpg') center/cover no-repeat; /* 배경 이미지 경로 */
+    background: url('image/ABOUT.png') center/cover no-repeat; /* 배경 이미지 경로 */
     background-size: cover; /* 배경 이미지를 꽉 채우도록 설정 */
     background-position: center; /* 배경 이미지 중앙 정렬 */
     color: #f1fafcee;
